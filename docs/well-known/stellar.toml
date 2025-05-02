@@ -1,0 +1,21 @@
+VERSION = "2.0.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+DOCUMENTATION = {
+  ORG_NAME = "TEST Token Project",
+  ORG_URL = "https://artiom20053.github.io/johnsmithh/",
+  ORG_DESCRIPTION = "Official TEST token ecosystem."
+}
+
+CURRENCIES = [
+  {
+    code = "TEST",
+    issuer = "GABUERK76X2PJUL3ALM2XCGTWOMA4J33OBMK3IHMCXALVX5UCYRQEMRJ",
+    name = "TEST Token",
+    desc = "Official utility token for TEST ecosystem",
+    image = "https://ipfs.io/ipfs/bafkreidg2zgrowcebghb35sezlsla7waml46tlzfmtmu6lgxjepmzrtdsa",
+    conditions = "Max supply: 10,000,000 TEST. No inflation.",
+    status = "live",
+    display_decimals = 0
+  }
+]
